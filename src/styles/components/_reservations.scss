@@ -1,0 +1,107 @@
+/*-------------------------------
+    6. RESERVATION BUTTON AREA
+---------------------------------*/
+
+.reservation-button-area.section-padding {
+    padding: 150px 0;
+}
+
+.reservation-button-area {
+    color: #fff;
+    font-family: "PT Sans Narrow", sans-serif;
+    position: relative;
+}
+
+.reservation-button-area-bg {
+    background: rgba(0, 0, 0, 0) url("http://caraveladoral.com/img/carousel/food-drink-slide.jpg") no-repeat scroll center center / cover;
+}
+
+.resarvation-from-button.text-center h2 {
+    font-size: 50px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+a.reservation-button {
+    background: #fff none repeat scroll 0 0;
+    color: #ca3d26;
+    display: inline-block;
+    font-weight: 700;
+    letter-spacing: 4px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    min-width: 200px;
+}
+
+a.reservation-button:hover {
+    background: #ca3d26 none repeat scroll 0 0;
+    color: #fff;
+}
+
+#reservation-form-modal .modal-header {
+    color: #ca3d26;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.table-booking-form {
+    background: #ca3d26 none repeat scroll 0 0;
+    display: block;
+    padding: 30px 20px;
+    z-index: 99;
+    position: relative;
+}
+
+.table-booking-form input,
+.table-booking-form select {
+    border: 2px solid;
+    color: #fff;
+    height: 40px;
+    position: relative;
+    width: 100%;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: transparent;
+    cursor: pointer;
+    padding: 0 10px;
+    margin-bottom: 30px;
+}
+
+.table-booking-form label {
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    right: 25px;
+    top: 7px;
+}
+
+.table-booking-form button {
+    background: transparent none repeat scroll 0 0;
+    border: 2px solid;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 5px 15px;
+    text-transform: uppercase;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+
+.table-booking-form button:hover {
+    background: #fff none repeat scroll 0 0;
+    border: 2px solid #fff;
+    color: #ca3d26;
+}
+
+option {
+    padding: 5px;
+}
+
+#reservation-form-modal .modal-dialog .modal-content {
+    border-radius: 0;
+}

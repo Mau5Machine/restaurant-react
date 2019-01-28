@@ -1,0 +1,34 @@
+/*---------------------------------
+    COOKING EFFECT
+-----------------------------------*/
+
+.Background {
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+
+.Background::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.5), transparent 50%, rgba(0, 0, 0, 0.5));
+}
+
+.cooking-effect .top-area-bg::before {
+    z-index: 1;
+}
+
+/*--------------------------------
+    VIDEO BG
+---------------------------------*/
+.top-area-bg.video-bg {
+    background: transparent;
+}

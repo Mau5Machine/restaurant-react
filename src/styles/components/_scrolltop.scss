@@ -1,0 +1,24 @@
+/*------------------------------
+    11. SCROLL TO TOP
+-------------------------------*/
+
+a.scrolltotop {
+    background: #ca3d26 none repeat scroll 0 0;
+    border: 1px solid transparent;
+    bottom: 20px;
+    color: #fff;
+    display: none;
+    font-size: 20px;
+    height: 40px;
+    padding-top: 5px;
+    position: fixed;
+    right: 20px;
+    text-align: center;
+    width: 40px;
+    z-index: 99;
+}
+
+a.scrolltotop:hover {
+    background: #1a1a1a;
+    border: 1px solid;
+}

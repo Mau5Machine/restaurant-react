@@ -1,0 +1,43 @@
+/*---------------------------------------------------------------------------------------
+1. BASE CSS
+2. TOP AREA
+    2.1 MAINMENU AREA
+    2.2 SLIDER AREA
+    2.3 SEARCH FORM AREA
+3. ABOUT AREA
+4. PROMOTIONS AREA
+5. MENUS AREA
+6. RESERVATION BUTTON AREA
+7. TEAM AREA
+8. BLOG AREA
+9. GALLERY AREA
+10. FOOTER AREA
+11. SCROLL TO TOP
+12. SINGLE PAGE
+13. BLOG PAGE
+    13.1 SIDEBAR AREA
+14. SINGLE BLOG PAGE
+----------------------------------------------------------------------------------------*/
+
+@import './base/settings';
+@import './base/base';
+@import './components/toparea';
+@import './components/mainmenu';
+@import './components/searchform';
+@import './components/slider';
+@import './components/about';
+@import './components/promo';
+@import './components/menus';
+@import './components/reservations';
+@import './components/team';
+@import './components/blog';
+@import './components/gallery';
+@import './components/footer';
+@import './components/scrolltop';
+@import './components/single';
+@import './components/blog-page';
+@import './components/sidebar';
+@import './components/single-blog';
+@import './base/effects';
+@import './components/welcome';
+@import './components/classic';

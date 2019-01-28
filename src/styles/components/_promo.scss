@@ -1,0 +1,90 @@
+/*-----------------------------
+    4. PROMOTIONS AREA
+------------------------------*/
+
+.promotions-area {
+    position: relative;
+}
+
+.promotion-area-bg,
+.reservation-button-area-bg,
+.blog-area-bg,
+.footer-area-bg {
+    background: rgba(0, 0, 0, 0) url("http://caraveladoral.com/img/carousel/food-drink-slide.jpg") no-repeat scroll center center / cover;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.promotion-area-bg::after,
+.reservation-button-area-bg:after,
+.blog-area-bg:after,
+.footer-area-bg::after,
+.page-barner-bg::after {
+    background: #000 url('http://caraveladoral.com/img/carousel/food-drink-slide.jpg');
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.promotions-img {
+    height: auto;
+    max-height: 450px;
+    width: 70%;
+}
+
+.promotions-details {
+    background: #fff none repeat scroll 0 0;
+    color: #1a1a1a;
+    height: 300px;
+    margin-top: -150px;
+    max-height: 350px;
+    padding: 50px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 40%;
+    z-index: 9;
+}
+
+.promotions-details h3 {
+    font-size: 30px;
+}
+
+.promotions-details a.read-more {
+    margin-top: 25px;
+}
+
+.promotions-details a.read-more:hover {
+    background: #ca3d26 none repeat scroll 0 0;
+    border-color: #ca3d26;
+    color: #fff;
+}
+
+.row.menu-discount-offer {
+    margin: auto;
+}
+
+.menu-discount-offer .owl-dots>div {
+    background: #bcbfc1 none repeat scroll 0 0;
+    border-radius: 50%;
+    display: inline-block;
+    height: 15px;
+    margin: 0 5px;
+    width: 15px;
+}
+
+.owl-dots {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.menu-discount-offer .owl-dots>div.active {
+    background: #1a1a1a none repeat scroll 0 0;
+}

@@ -1,0 +1,178 @@
+/*===============================
+    13. BLOG PAGE
+=================================*/
+
+.blog-page .page-barner-bg {
+    background: rgba(0, 0, 0, 0) url("http://caraveladoral.com/img/caravela-txt.png") no-repeat scroll center center / cover;
+}
+
+.blog-page.section-padding {
+    padding-top: 50px;
+}
+
+.blog-page.blog-area {
+    background: inherit;
+    position: inherit;
+}
+
+.single-blog {
+    border-bottom: 1px solid #d9d9d9;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+
+.single-blog img {
+    width: 100%;
+}
+
+.title-and-meta {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.title-and-meta::after {
+    background: #1a1a1a none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 50%;
+    margin-left: -30px;
+    position: absolute;
+    width: 60px;
+}
+
+.title-and-meta h3 {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.blog-video {
+    position: relative;
+}
+
+.blog-area iframe {
+    width: 100%;
+    border: 0;
+    overflow: hidden;
+}
+
+.blog-page a.read-more {
+    margin-bottom: 0;
+}
+
+.blog-image-sldie .owl-nav>div {
+    background: #fff none repeat scroll 0 0;
+    color: #1a1a1a;
+    display: inline-block;
+    font-size: 35px;
+    height: 40px;
+    margin-top: -20px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 40px;
+}
+
+.blog-image-sldie .owl-nav>div.owl-next {
+    right: -2px;
+}
+
+.blog-image-sldie .owl-nav>div.owl-prev {
+    left: 0;
+}
+
+ul.page-pagination {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+ul.page-pagination li {
+    border: 1px solid;
+    display: inline-block;
+}
+
+ul.page-pagination li a {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding: 5px 50px;
+    text-transform: uppercase;
+}
+
+ul.page-pagination li.active a,
+ul.page-pagination li:hover a {
+    background: #ca3d26 none repeat scroll 0 0;
+    color: #fff;
+}
+
+ul.page-pagination li a {
+    height: 35px;
+    padding: 5px;
+    min-width: 35px;
+}
+
+.tags-and-social-bar {
+    border-bottom: 1px solid #c3c3c4;
+    margin: -40px 0 60px;
+    padding-bottom: 20px;
+}
+
+.tags h3,
+.tags ul,
+.single-post-social-bar h3,
+.single-post-social-bar ul {
+    display: inline-block;
+}
+
+.tags ul,
+.single-post-social-bar ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+
+.tags ul li,
+.single-event-social-bar ul li,
+.single-post-social-bar ul li {
+    display: inline;
+}
+
+.tags ul li a {
+    display: inline-block;
+    padding: 5px;
+}
+
+.tags h3,
+.single-post-social-bar h3 {
+    font-size: 18px;
+    margin: 0 15px;
+}
+
+.single-post-social-bar ul li a {
+    padding: 5px 10px;
+}
+
+.single-post-social-bar {
+    margin-top: -30px;
+}
+
+.blog-video-button {
+    border: 4px solid;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 30px;
+    height: 70px;
+    left: 50%;
+    padding-left: 5px;
+    padding-top: 16px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 70px;
+}

@@ -1,0 +1,89 @@
+/*----------------------------
+    3. ABOUT AREA
+------------------------------*/
+
+.about-area {
+    background: rgba(0, 0, 0, 0) no-repeat scroll center bottom / contain;
+    position: relative;
+}
+
+.about-area::after,
+.about-area::before,
+.menus-area::after,
+.menus-area::before,
+.team-area::after,
+.team-area::before,
+.gallery-area::after,
+.footer-area::after {
+    background: rgba(0, 0, 0, 0) url("http://caraveladoral.com/img/carousel/food-drink-slide.jpg") repeat scroll 0 0;
+    content: "";
+    height: 7px;
+    left: 0;
+    position: absolute;
+    top: -7px;
+    -webkit-transform: rotateX(180deg);
+    transform: rotateX(180deg);
+    width: 100%;
+    z-index: 9;
+}
+
+.about-area::before,
+.menus-area::before,
+.team-area::before {
+    bottom: -7px;
+    top: auto;
+    -webkit-transform: rotateX(360deg);
+    transform: rotateX(360deg);
+}
+
+.about-author-sign {
+    margin-top: 40px;
+}
+
+.big-text {
+    float: left;
+    font-size: 80px;
+    font-weight: 700;
+    margin-bottom: -4px;
+    margin-right: 10px;
+    line-height: 1;
+}
+
+.about-area .area-title h2 {
+    font-size: 80px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.about-area .area-title h2 span {
+    color: #212324;
+    font-family: lato;
+    font-size: 48px;
+    text-transform: uppercase;
+}
+
+.about-area .area-title h2::after {
+    display: none;
+}
+
+.about-content {
+    color: #4a4d4f;
+}
+
+a.read-more {
+    border: 1px solid;
+    color: #ca3d26;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    padding: 7px 23px;
+    text-transform: uppercase;
+}
+
+.read-more:hover {
+    background: #ca3d26;
+    color: #fff;
+    border-color: #ca3d26;
+}

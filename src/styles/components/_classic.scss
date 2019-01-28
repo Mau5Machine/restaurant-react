@@ -1,0 +1,15 @@
+/*-----------------------------
+    CLASSIC STYLE
+------------------------------*/
+
+.style-classic .about-area::after,
+.style-classic .about-area::before,
+.style-classic .menus-area::after,
+.style-classic .menus-area::before,
+.style-classic .team-area::after,
+.style-classic .team-area::before,
+.style-classic .gallery-area::after,
+.style-classic .footer-area::after,
+.style-classic .mainmenu-area::after {
+    display: none;
+}

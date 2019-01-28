@@ -1,0 +1,80 @@
+/*==============================
+    14. SINGLE BLOG PAGE
+================================*/
+
+.single-blog-page .page-barner-bg {
+    background: rgba(0, 0, 0, 0) url("http://caraveladoral.com/img/caravela-txt.png") no-repeat scroll center center / cover;
+}
+
+.single-blog-page .title-and-meta::after {
+    left: 0;
+    margin-left: auto;
+}
+
+.blog-comments {
+    margin-bottom: 50px;
+}
+
+.single-comments:nth-child(2n+1) {
+    margin-left: 80px;
+}
+
+.comment-meta h5 {
+    color: #1a1a1a;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.comment-meta h5 span a {
+    color: #ca3d26;
+    float: right;
+}
+
+.comment-meta h5 span i {
+    margin-right: 5px;
+}
+
+.comment-meta h5 span a:hover {
+    color: #1a1a1a;
+}
+
+.comment-box input,
+.comment-box textarea {
+    border: 1px solid;
+    display: block;
+    margin-bottom: 30px;
+    max-height: 100px;
+    padding: 5px 10px;
+    width: 100%;
+}
+
+.comment-box input:focus,
+.comment-box textarea:focus {
+    border-color: #ca3d26;
+}
+
+.comment-box button {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid;
+    color: #000;
+    letter-spacing: 1px;
+    margin: 0 0 30px;
+    padding: 8px 20px;
+    text-transform: uppercase;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.comment-box button:hover {
+    background: #ca3d26 none repeat scroll 0 0;
+    border-color: #ca3d26;
+    color: #fff;
+}
+
+.single-comments {
+    padding-bottom: 10px;
+    padding-top: 20px;
+    border-bottom: 1px solid #d1d1d1;
+}

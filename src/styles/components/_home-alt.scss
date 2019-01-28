@@ -1,0 +1,139 @@
+/*----------------------------------
+    HOME ALT
+-----------------------------------*/
+
+.single-menu-two {
+    overflow: hidden;
+    position: relative;
+}
+
+.food-menu-img-two {
+    overflow: hidden;
+    position: relative;
+}
+
+.food-menu-details-two {
+    border: 1px solid #dddddd;
+    padding: 30px;
+    text-align: center;
+}
+
+.food-menu-img-two .menu-price {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0) url("http://caraveladoral.com/img/caravela-txt.png") no-repeat scroll center center / cover;
+    border-radius: 5px;
+    color: #ffffff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    height: 100px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    left: 50%;
+    padding: 10px 20px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    width: 100px;
+    z-index: 9;
+}
+
+.food-menu-img-two::after {
+    background: #000000 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+    z-index: 1;
+}
+
+.single-menu-two:hover .food-menu-img-two::after {
+    opacity: 0.5;
+    visibility: visible;
+}
+
+.home-alt-two .team-member-img {
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.home-alt-two .member-social-bookmark {
+    height: auto;
+    left: 50%;
+    margin: 0;
+    opacity: 0;
+    top: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    width: 100%;
+}
+
+.home-alt-two .member-social-bookmark li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.home-alt-two .single-team-member:hover .member-social-bookmark {
+    left: 0;
+    opacity: 1;
+}
+
+
+.home-alt .promotions-img {
+    position: relative;
+}
+
+.home-alt .promotions-img::after {
+    background: #000000 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+
+.package-price {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0) url("http://caraveladoral.com/img/caravela-txt.png") no-repeat scroll center center / cover;
+    color: #ffffff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    height: 100px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    left: -50px;
+    position: absolute;
+    top: -50px;
+    width: 100px;
+}
+
+.home-alt .single-promotions:hover .promotions-img::after {
+    opacity: 0.5;
+}
+
+/*==================================
+        END OF MAIN STYLESHEET
+====================================*/

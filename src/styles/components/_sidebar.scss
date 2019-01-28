@@ -1,0 +1,221 @@
+/*------------------------------
+    13.1 SIDEBAR AREA
+-------------------------------*/
+
+.single-sidebar-widget>form {
+    height: 45px;
+    position: relative;
+}
+
+.single-sidebar-widget>form input {
+    border: 2px solid;
+    color: #1b1c1c;
+    height: 100%;
+    padding: 12px;
+    width: 100%;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.single-sidebar-widget>form button {
+    background: #1b1c1c none repeat scroll 0 0;
+    border: 0 none;
+    color: #fff;
+    font-size: 20px;
+    height: 41px;
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    width: 20%;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.single-sidebar-widget input:focus {
+    border-color: #ca3d26;
+}
+
+.single-sidebar-widget input:focus+button {
+    background: #ca3d26;
+}
+
+.single-sidebar-widget>form button:hover {
+    background: #1b1c1c none repeat scroll 0 0;
+}
+
+.single-sidebar-widget {
+    margin-bottom: 50px;
+}
+
+.single-sidebar-widget:last-child {
+    margin-bottom: 0;
+}
+
+.single-sidebar-widget>h4,
+.blog-comments h4,
+.comment-box h4 {
+    color: #212222;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.single-sidebar-widget>h4::after,
+.blog-comments h4::after,
+.comment-box h4::after {
+    background: #212222 none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    width: 50px;
+}
+
+.single-sidebar-widget ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+
+.single-sidebar-widget ul li {
+    display: inline;
+}
+
+.single-sidebar-widget.tag-widget ul li a {
+    border: 1px solid;
+    display: inline-block;
+    font-size: 13px;
+    letter-spacing: 1px;
+    margin: 3px 1px;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+.single-sidebar-widget.tag-widget ul li a:hover {
+    background: #ca3d26 none repeat scroll 0 0;
+    border-color: #ca3d26;
+    color: #fff;
+}
+
+.single-sidebar-widget.catagories-widget ul li {
+    border-bottom: 1px solid #dfdfdf;
+    display: block;
+}
+
+.single-sidebar-widget.catagories-widget ul li a {
+    display: block;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+
+.single-sidebar-widget.catagories-widget ul li a i {
+    margin-right: 10px;
+}
+
+.single-sidebar-widget.catagories-widget ul li:hover a {
+    padding-left: 11px;
+}
+
+.social-widget ul li {
+    display: inline-block;
+}
+
+.social-widget ul li a {
+    background: #ddd none repeat scroll 0 0;
+    border-radius: 50%;
+    display: block;
+    font-size: 20px;
+    height: 40px;
+    padding-top: 7px;
+    text-align: center;
+    width: 40px;
+    color: #fff;
+}
+
+.social-widget ul li.s_facebook a {
+    background: #2069ba none repeat scroll 0 0;
+}
+
+.social-widget ul li.s_twitter a {
+    background: #25AEEE none repeat scroll 0 0;
+}
+
+.social-widget ul li.s_youtube a {
+    background: #C32E2E none repeat scroll 0 0;
+}
+
+.social-widget ul li.s_dribbble a {
+    background: #C93292 none repeat scroll 0 0;
+}
+
+.social-widget ul li a:hover {
+    background: #fff none repeat scroll 0 0;
+    -webkit-box-shadow: 0 0 3px #212121;
+    box-shadow: 0 0 3px #212121;
+    color: #212121;
+}
+
+.post-widget ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+
+.post-widget ul li.s_post {
+    border-bottom: 1px solid #dfdfdf;
+    display: block;
+    margin-bottom: 20px;
+    overflow: hidden;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.post-widget ul li .post-tumb {
+    height: 80px;
+    width: 80px;
+}
+
+.post-widget ul li .post-tumb img {
+    height: 100%;
+    width: 100%;
+}
+
+.post-title-and-date h4 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.post-title-and-date a {
+    margin: 0;
+}
+
+.single-sidebar-widget .post-meta {
+    margin-bottom: 0;
+}
+
+ul.blog-instagram-feed-widget {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+ul.blog-instagram-feed-widget li {
+    display: inline-block !important;
+    margin: 3px;
+    width: 30%;
+}
+
+.blog-instagram-feed-widget img {
+    width: 100%;
+}
+
+.blog-instagram-feed-widget img:hover {
+    opacity: 0.5;
+}

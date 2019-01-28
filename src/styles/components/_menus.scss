@@ -1,0 +1,93 @@
+/*-----------------------------
+    5. MENUS AREA
+-------------------------------*/
+
+.menus-area {
+    position: relative;
+}
+
+.menus-area.section-padding {
+    padding-bottom: 60px;
+}
+
+.food-menu-list-menu {
+    margin-bottom: 60px;
+}
+
+.food-menu-list-menu ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.food-menu-list-menu ul li {
+    border: 1px solid;
+    color: #1e1e1f;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 0 2px;
+    padding: 3px 10px;
+    text-transform: uppercase;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.food-menu-list-menu ul li:hover,
+.food-menu-list-menu ul li.active {
+    background: #ca3d26 none repeat scroll 0 0;
+    border-color: #ca3d26;
+    color: #fff;
+}
+
+.single-menu .single-menu-details {
+    border-bottom: 1px solid #E4E4E4;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    padding-left: 140px;
+    position: relative;
+}
+
+.food-menu-img {
+    border-radius: 50%;
+    height: 100px;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100px;
+    -webkit-box-shadow: 0 0 0 10px #ddd;
+    box-shadow: 0 0 0 10px #ddd;
+}
+
+.food-menu-details {
+    color: #1e1e1f;
+    padding: 0;
+    text-align: inherit;
+}
+
+.food-menu-details h3 {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.food-menu-details p span {
+    display: inline-block;
+    width: 30%;
+}
+
+.food-menu-details h3 span {
+    color: #ca3d26;
+    float: right;
+}
+
+.menu-speacification {
+    margin-bottom: 0;
+}
+
+.mix {
+    display: none;
+}
